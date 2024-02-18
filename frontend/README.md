@@ -27,6 +27,8 @@ export default defineConfig({
 
 ## Tailwind CSS
 
+https://tailwindcss.com/docs/installation/using-postcss : Using PostCSS
+
 > If you want to use Tailwind CSS more easily, install the **'Tailwind CSS IntelliSense'** extension.
 
 > If you want to check SVG images, install the **'Svg Preview'** extension.
@@ -62,10 +64,24 @@ export default {
 
 **index.css**
 
+> The url(' ') value of the background property starts from the 'public' folder path.
+
 ```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.4)
+    ), url('/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 ```
 
 **delete App.css**
@@ -93,3 +109,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 );
 ```
+
+---
