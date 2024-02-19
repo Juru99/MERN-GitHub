@@ -111,3 +111,40 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ```
 
 ---
+
+## pages Folder
+
+> If you want to auto-complete the JSX initial structure, install the `VS Code ES7+ React/Redux/React-Native/JS snippets` extension and enter **'rafce'**.
+
+- HomePage.jsx
+- LoginPage.jsx
+- SignUpPage.jsx
+- ExplorePage.jsx
+- LikesPage.jsx
+
+---
+
+## components Folder
+
+> tailwind css glassmorphism generator: https://tailwindcss-glassmorphism.vercel.app/
+
+> https://react-icons.github.io/react-icons/
+
+- Sidebar.jsx
+  - Logout.jsx
+
+---
+
+## etc.
+
+> If you want to differentiate comments in various ways, install the `Better Comments` extension.
+
+```jsx
+/** MyMethod (green)
+ * * Important information is highlighted (yellowgreen)
+ * ! Deprecated method, do not use (red)
+ * ? Should this mthod be exposed in the public API? (blue)
+ * TODO: refactor this method so that it conforms to the API (orange)
+ * @param myParam The parameter for this method (JSDoc)
+ */
+```
