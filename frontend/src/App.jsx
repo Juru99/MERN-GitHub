@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="flex text-white">
       <Sidebar />
-      <div className="max-w-5xl my-5  mx-auto transition-all duration-300 flex-1">
+      <main className="max-w-5xl my-5  mx-auto transition-all duration-300 flex-1">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
@@ -21,7 +21,7 @@ function App() {
           {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>
         <footer>Footer</footer>
-      </div>
+      </main>
     </div>
   );
 }
