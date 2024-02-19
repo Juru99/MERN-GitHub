@@ -84,7 +84,20 @@ body {
 }
 ```
 
-**delete App.css**
+**finally, delete App.css**
+
+### [Tailwind CSS Tip]
+
+**1. reusing tailwind CSS**
+
+```css
+/* reusing tailwind CSS */
+@layer components {
+  .bg-glass {
+    @apply bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-800 hover:bg-gray-600/10;
+  }
+}
+```
 
 ---
 
@@ -118,7 +131,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 - HomePage.jsx
 - LoginPage.jsx
-- SignUpPage.jsx
+- SignUpPage.jsx: Displays sign up UI
+
 - ExplorePage.jsx
 - LikesPage.jsx
 
@@ -130,8 +144,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 > https://react-icons.github.io/react-icons/
 
-- Sidebar.jsx
-  - Logout.jsx
+- Sidebar.jsx: Displays links.
+
+  1. If `authUser = true`, Likes link, Explore link, and Logout link are displayed.
+  2. If `authUser = false`, Login link, SignUp link are displayed.
+
+  - Logout.jsx: Displays your profile and logout link.
 
 ---
 
