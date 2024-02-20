@@ -131,7 +131,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 - HomePage.jsx
 - LoginPage.jsx
-- SignUpPage.jsx:
+- SignUpPage.jsx
 
 - ExplorePage.jsx
 - LikesPage.jsx
@@ -151,6 +151,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   2. If `authUser = false`, Login link, SignUp link are displayed.
 
   - Logout.jsx: Displays your profile and logout link.
+
+- Search.jsx: Added Search UI in HomePage
 
 ---
 
