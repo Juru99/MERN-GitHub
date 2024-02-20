@@ -129,12 +129,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 > If you want to auto-complete the JSX initial structure, install the `VS Code ES7+ React/Redux/React-Native/JS snippets` extension and enter **'rafce'**.
 
-- HomePage.jsx
-- LoginPage.jsx
-- SignUpPage.jsx
+- **HomePage.jsx**
+- **LoginPage.jsx**
+- **SignUpPage.jsx**
 
-- ExplorePage.jsx
-- LikesPage.jsx
+- **ExplorePage.jsx**
+- **LikesPage.jsx**
   - Flowbite(design) tables link: https://flowbite.com/docs/components/tables/
 
 ---
@@ -152,8 +152,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
   - Logout.jsx: Displays your profile and logout link.
 
-- Search.jsx: Added Search UI in HomePage
-- SortRepos.jsx: Added Sort UI in HomePage
+- **Search.jsx**: Added Search UI in HomePage
+- **SortRepos.jsx**: Added Sort UI in HomePage
+- **ProfileInfo.jsx**: Added ProfileInfo UI in HomePage
+  - Profile image, GitHub link, Location, Member since, Full Name, Username, Followers, Follwing, Public repos, Public gists
 
 ---
 
