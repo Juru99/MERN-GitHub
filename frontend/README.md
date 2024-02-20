@@ -158,6 +158,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   - Profile image, GitHub link, Location, Member since, Full Name, Username, Followers, Follwing, Public repos, Public gists
 - **Repos.jsx**: Added Repos UI in HomePage
   - **Repo.jsx**: Added Repo UI in Repos
+- **Spinner.jsx**
 
 ---
 
