@@ -153,6 +153,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   - Logout.jsx: Displays your profile and logout link.
 
 - Search.jsx: Added Search UI in HomePage
+- SortRepos.jsx: Added Sort UI in HomePage
 
 ---
 
