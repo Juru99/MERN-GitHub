@@ -130,11 +130,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 > If you want to auto-complete the JSX initial structure, install the `VS Code ES7+ React/Redux/React-Native/JS snippets` extension and enter **'rafce'**.
 
 - HomePage.jsx
-- LoginPage.jsx: Displays login UI
-- SignUpPage.jsx: Displays sign up UI
+- LoginPage.jsx
+- SignUpPage.jsx
 
 - ExplorePage.jsx
 - LikesPage.jsx
+  - Flowbite(design) tables link: https://flowbite.com/docs/components/tables/
 
 ---
 
