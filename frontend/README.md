@@ -156,6 +156,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 - **SortRepos.jsx**: Added Sort UI in HomePage
 - **ProfileInfo.jsx**: Added ProfileInfo UI in HomePage
   - Profile image, GitHub link, Location, Member since, Full Name, Username, Followers, Follwing, Public repos, Public gists
+- **Repos.jsx**: Added Repos UI in HomePage
+  - **Repo.jsx**: Added Repo UI in Repos
+- **Spinner.jsx**
 
 ---
 
