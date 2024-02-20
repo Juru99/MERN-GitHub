@@ -131,7 +131,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 - HomePage.jsx
 - LoginPage.jsx
-- SignUpPage.jsx
+- SignUpPage.jsx: Displays sign up UI
+
 - ExplorePage.jsx
 - LikesPage.jsx
   - Flowbite(design) tables link: https://flowbite.com/docs/components/tables/
