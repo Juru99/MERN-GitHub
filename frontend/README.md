@@ -175,3 +175,28 @@ ReactDOM.createRoot(document.getElementById('root')).render(
  * @param myParam The parameter for this method (JSDoc)
  */
 ```
+
+## GET User Profile and Repos
+
+### API
+
+> https://api.github.com/: We can access GitHub account information through the GitHub API.
+
+### Chrome Extension
+
+> JSON Viewer Pro: https://chromewebstore.google.com/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc
+
+### package
+
+react-hot-toast: https://react-hot-toast.com/
+
+```jsx
+// App.jsx
+import { Toaster } from 'react-hot-toast';
+
+<Toaster />;
+```
+
+### link
+
+programming languages icons: https://icons8.com/
